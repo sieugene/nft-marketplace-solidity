@@ -34,3 +34,5 @@ contract NFTContract is ERC1155, Ownable {
         _burn(from, id, amount);
     }
 }
+
+// Deploy set uri as -> https://nft-marketpl.herokuapp.com/account/{id}.json
